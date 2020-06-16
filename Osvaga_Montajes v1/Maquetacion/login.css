@@ -1,0 +1,48 @@
+.caja-login {
+    margin-bottom: 25px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+}
+.sombra-suave {
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ebeced;
+    font-family: Open Sans,arial,sans-serif;
+}
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #888;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 13px;
+    color: #888;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+::selection {
+    background-color: #ff6000;
+    color: #fff;
+}
