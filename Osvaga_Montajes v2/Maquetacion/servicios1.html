@@ -1,0 +1,227 @@
+<!-- DOCTYPE -->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="servicios1.css" media="screen" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="jquery-3.4.0.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Osvaga-Montajes</title>
+        <style>
+
+        </style>
+    </head>
+<body>
+    <div class="container-fluid" id="general"><!--GENERAL-->
+        <div class="container-fluid" id="container_head"><!--HEAD-->
+            <div class="container cabecera">
+                <div class="row">
+                    <div class="d-flex mr-auto p-2 logo_cabecera">
+                        <img src="Imagenes/Logo_transparente.png" alt="osvaga-montajes" width="300px;" height="100px;">
+                    </div>
+               
+                    <div class="d-flex ml-auto p-2 container_login">
+                        <div class="rounded-circle borde login">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div><!--FIN HEAD-->
+        <div class="container-fluid" id="separador"></div><!--SEPARADOR-->
+        <div class="sticky-top container-fluid" id="container_main_menu"><!--MAIN MENU-->
+            <div class="container main_menu">
+                <div class="row">
+                    <!--BUSQUEDA-->
+                    <nav class="navbar-light d-none d-sm-none d-md-block col-md-5 col-lg-4 col-xl-3 busqueda"><!--BUSQUEDA-->
+                        <form class="form-inline">
+                            <input id="barra_busqueda" class="form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-primary btn-sm" type="submit">Search</button>
+                        </form>
+                    </nav>
+                    <br>
+                    <div id="resultados_busqueda"></div><!--LISTA DE RESULTADOS-->
+                    <!--FIN BUSQUEDA-->
+                    <div class="d-none d-sm-none d-lg-block offset-lg-1 offset-xl-1"></div><!--ICONOS-->
+                    <div id="iconos" class="d-none d-sm-block col-sm-7 col-md-5 col-lg-4 col-xl-4">
+                        <i class="fas fa-phone"></i>
+                        <p>: 605689811</p>
+                        <i class="fas fa-envelope"></i>
+                        <p>: osvaga-montajes@hotmail.com</p>
+                    </div><!--FIN ICONOS-->
+                    <div class="d-none d-sm-none d-md-none offset-lg-1 d-xl-none"></div><!--ICONOS-->
+                    <nav class="navbar ml-auto navbar-expand-xl navbar-dark  bg-company-red">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>          
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contacto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="servicios1.html">Servicios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">Proyectos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div><!--FIN BOTONES MENU-->
+            </div>
+        </div><!--FIN MAIN MENU-->
+        <div id="contenido_pagina" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4">
+                        <h1>Servicios</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <div class="nav-side-menu">
+                            <div class="brand">Servicios</div>
+                            <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+                            <div class="menu-list">
+                                <ul id="menu_servicios" class="menu-content collapse out">
+                                    <li id="Todos" name="Todos" data-toggle="collapse" class="item-active collapsed">
+                                        <a id="todos"><i class="fa fa-globe fa-lg"></i> Todos </a>
+                                    </li>  
+                                    
+                                    <li id="todos"  data-toggle="collapse" data-target="#service" class="collapsed">
+                                        <a href="#"><i class="fa fa-globe fa-lg"></i> Fachadas ventiladas <span class="arrow"></span></a>
+                                    </li>  
+                                    <ul class="sub-menu collapse" id="service">
+                                        <li>Fachada de gres frontek</li>
+                                        <li>Facahada ventilada de ceramicaA</li>
+                                        <li>Fahada ventilada pieza de ceramica</li>
+                                        <li>Fachada etercolor combinada</li>
+                                        <li>Fachada etercolor gris pizarra</li>
+                                        <li>Fachadas de chapa minionizada metalica</li>
+                                        <li>Tabique pluvial de chapa metalizada</li>
+                                    </ul>
+                    
+                    
+                                    <li id="Cubiertas" data-toggle="collapse" data-target="#cubiertas_tectum" class="collapsed">
+                                        <a id="Cubiertas"><i class="fa fa-car fa-lg"></i> Cubiertas <span class="arrow"></span></a>
+                                    </li>
+                                    
+                                    <ul id="cubiertas_tectum" class="sub-menu collapse">
+                                        <li>Cubiertas de teja</li>
+                                        <li>Cubiertas de cobre</li>
+                                        <li>Cubiertas de fibrocemento</li>
+                                        <li>Cubiertas de chapa</li>
+                                        <li>Cubiertas deck</li>
+                                        <li data-toggle="collapse" data-target="#Tectum" class="collapsed">
+                                            <a href="#"><i class="fa fa-car fa-lg"></i> Cubiertas Tectum <span class="arrow"></span></a>
+                                        </li>
+                                        <ul class="sub-menu collapse" id="Tectum">
+                                            <li style="text-indent:15px">Autoportantes</li>
+                                            <li style="text-indent:15px">Registrable</li>
+                                            <li style="text-indent:15px">Habitable</li>
+                                        </ul>
+                                    </ul>
+                                    
+                                    <li id="canales" data-toggle="collapse"  class="collapsed">
+                                        <a href="#"><i class="fa fa-car fa-lg"></i> Canales y bajantes </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offset-xl-1"></div>
+                    <div id="tarjetas_servicios" class="col-xl-8">
+                        <!--<div class="card-deck">-->
+                        <!--    <div class="card">-->
+                        <!--        <img class="card-img-top" src="Imagenes/architecture-blue-build.jpg" alt="Card image cap">-->
+                        <!--        <div class="card-body">-->
+                        <!--            <h5 class="card-title">Card title</h5>-->
+                        <!--            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+                        <!--        </div>-->
+                        <!--    </div>-->
+                        <!--    <div class="card">-->
+                        <!--        <img class="card-img-top" src="Imagenes/architecture-build-building.jpg" alt="Card image cap">-->
+                        <!--        <div class="card-body">-->
+                        <!--            <h5 class="card-title">Card title</h5>-->
+                        <!--            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>-->
+                        <!--        </div>-->
+                        <!--    </div>-->
+                        <!--    <div class="card">-->
+                        <!--        <img class="card-img-top" src="Imagenes/architecture-building-construction.jpg" alt="Card image cap">-->
+                        <!--        <div class="card-body">-->
+                        <!--            <h5 class="card-title">Card title</h5>-->
+                        <!--            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>-->
+                        <!--        </div>-->
+                        <!--    </div>-->
+                        <!--</div>-->
+                        <!--<div class="card-deck">-->
+                        <!--    <div class="card">-->
+                        <!--        <img class="card-img-top" src="Imagenes/architecture-blue-build.jpg" alt="Card image cap">-->
+                        <!--        <div class="card-body">-->
+                        <!--            <h5 class="card-title">Card title</h5>-->
+                        <!--            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+                        <!--        </div>-->
+                        <!--    </div>-->
+                        <!--    <div class="card">-->
+                        <!--        <img class="card-img-top" src="Imagenes/architecture-build-building.jpg" alt="Card image cap">-->
+                        <!--        <div class="card-body">-->
+                        <!--            <h5 class="card-title">Card title</h5>-->
+                        <!--            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>-->
+                        <!--        </div>-->
+                        <!--    </div>-->
+                        <!--    <div class="card">-->
+                        <!--        <img class="card-img-top" src="Imagenes/architecture-building-construction.jpg" alt="Card image cap">-->
+                        <!--        <div class="card-body">-->
+                        <!--            <h5 class="card-title">Card title</h5>-->
+                        <!--            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>-->
+                        <!--        </div>-->
+                        <!--    </div>-->
+                    </div>
+                </div>
+            </div>      
+        </div>
+            <!--FOOTER-->
+        <div class="container-fluid" id="container_footer">
+            <div class="container footer">
+                <div class="row">
+                    <div class="d-none d-sm-block offset-sm-2 d-md-none d-lg-none"></div>
+                        <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-4 logo_footer">
+                            <img src="Imagenes/Logo_transparente.png" alt="osvaga-montajes" width="300px;" height="100px;">
+                        </div>
+                    <div class="offset-2 offset-sm-2 d-md-none offset-lg-1"></div>
+                    <div class="offset-sm-2 d-md-none d-lg-block offset-lg-1 offset-xl-1"></div>
+                    <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4 contacto_footer" style="text-align: center;">
+                        <h4>Informacion de contacto</h4>
+                        <p>Telefono: 607 872 167</p>
+                        <p>Mail: osvaga-montajes@hotmail.com</p>
+                        <p>Direccion: Badalona</p>
+                    </div>
+                    <div class="offset-sm-3 d-md-none d-lg-none  d-xl-block offset-xl-1"></div>
+                    <div class="col-sm-6 d-md-none d-lg-block col-lg-2 col-xl-2 redes_footer" style="text-align: center;">
+                        <h4>Redes sociales</h4>
+                        <i class="fab fa-facebook fa-footer"></i>
+                        <i class="fab fa-twitter-square fa-footer"></i>
+                    </div>
+                </div>
+            </div>
+        </div>        <!--FOOTER-->
+    </div><!--FIN GENERAL-->
+    <script src="../JavaScript/buscador_dinamico.js"> </script>
+    <script src="../JavaScript/servicios.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

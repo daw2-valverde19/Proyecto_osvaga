@@ -1,0 +1,214 @@
+<!-- DOCTYPE -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="jquery-3.4.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Osvaga-Montajes</title>
+    <script src="../JavaScript/prueba.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <!--GENERAL-->
+    <div class="container-fluid" id="general">
+        <div class="container-fluid" id="container_head">
+            <!--HEAD-->
+            <div class="container cabecera">
+                <div class="row">
+                    <div class="offset-xl-4"></div>
+                    <div class="d-flex mr-auto p-2 logo_cabecera">
+                        <img src="Imagenes/Logo_transparente.png" alt="osvaga-montajes" width="300px;" height="100px;">
+                    </div>
+                    <div class="offset-xl-4"></div>
+                </div>
+            </div>
+        </div>
+        <!--FIN HEAD-->
+        <div class="container-fluid" id="separador"></div>
+        <!--SEPARADOR-->
+        <div class="sticky-top container-fluid" id="container_main_menu">
+            <!--MAIN MENU-->
+            <div class="container main_menu">
+                <div class="row">
+                    
+                    <!--BUSQUEDA-->
+                    <nav class="navbar-light d-none d-sm-none d-md-block col-md-5 col-lg-4 col-xl-3 busqueda"><!--BUSQUEDA-->
+                        <form class="form-inline">
+                            <input id="barra_busqueda" class="form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-primary btn-sm" type="submit">Search</button>
+                        </form>
+                    </nav>
+                    <br>
+                    <div id="resultados_busqueda"></div><!--LISTA DE RESULTADOS-->
+                    <!--FIN BUSQUEDA-->
+                    <!--ICONOS-->
+                           <div class="d-none d-sm-none d-lg-block offset-lg-1 offset-xl-1"></div>
+                    <div id="iconos" class="d-none d-sm-block col-sm-7 col-md-5 col-lg-4 col-xl-4">
+                        <i class="fas fa-phone"></i>
+                        <p>: 602 573 696</p>
+                        <i class="fas fa-envelope"></i>
+                        <p>: osvaga-montajes@hotmail.com</p>
+                    </div>
+                    <!--FIN ICONOS-->
+                    <div class="d-none d-sm-none d-md-none offset-lg-1 d-xl-none"></div>
+                    <nav class="navbar ml-auto navbar-expand-xl navbar-dark  bg-company-red">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>          
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link disabled" href="servicios1.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Proyectos</a>
+                            </li>
+                          </ul>
+                        </div>
+                    </nav>
+                </div>
+                <!--FIN BOTONES MENU-->
+            </div>
+        </div>
+        <!--FIN MAIN MENU-->
+        
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"><!--SLIDER-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div id="imagen"></div>
+                    <div class="carousel-caption d-none d-xl-block">
+                        <h3>Cubiertas Tectum</h3>
+                        <p>osvaga-montajes</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div id="imagen1"></div>
+                </div>
+                <div class="carousel-item">
+                    <div id="imagen2"></div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon flecha" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon flecha" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--FIN SLIDER-->
+        
+        <!--SPAM PRESUPUESTO-->
+        <div class="container-fluid" id="container_spam_presupuesto" >
+            <div class="container spam_presupuesto">
+                <div class="row">
+                    <div class="d-none d-sm-none d-md-block offset-md-1 offset-lg-1 offset-xl-2"></div>
+                    <div class="d-none d-sm-none d-md-block col-md-10 col-lg-7 col-xl-6 texto_presupuesto" style="text-align: center;">
+                        <p>Pide presupuesto gratuitamente y sin compromiso</p>
+                    </div>
+                    <div class="offset-2 offset-sm-1 offset-md-4 offset-lg-1 offset-xl-1"></div>
+                    <div class="col-8 col-sm-10 col-md-4 col-lg-3 col-xl-2 btn_presupuesto">
+                        <button type="button" class="btn btn-primary">Presupuesto</button>
+                    </div>
+                    <div class="offset-2 offset-sm-1 offset-md-4d-lg-none offset-xl-1"></div>
+                </div>
+            </div>
+        </div>
+        <!--FIN SPAM PRESUPUESTO-->
+
+        
+        <!--CONTENIDO PAGINA-->
+        <div class="container-fluid" id="container_contenidoPagina">
+            <div class="container contenidoPagina">
+                <div class="row titulo">
+                    <div class="col-xl-7">
+                        <h2>OSVAGA CUBIERTAS Y FACHADAS S.L.</h2>
+                    </div>
+                </div>
+                <div class="row titulo">
+                    <div class="col-xl-3 ">
+                        <h3>Sobre nosotros</h3>
+                    </div>
+                </div>
+                <div class="row texto_foto">
+                    <div class="col-xl-8 blockquote texto_contenidoPagina">
+                        <p>Nosotros somos una empresa instaladora ,con una larga y densa experiencia ,especializada
+                                en la instalación de cubiertas industriales ,cubiertas tipo tectum y de todo tipo de
+                                accesorios de tejados ,impermeabilizaciones y fachadas ventiladas ,cubiertas de zinc ,
+                                cobre , canales ,remates ,tubos y accesorios de cualquier metal sea galvanizado ,acero
+                                lacado ,cobre ,inoxidable ,zinc titanio ,zinc quartz.</p>
+                        <p>Nuestra filosofía de empresa ,al largo de todos los años de experiencia que llevamos ,
+                                viene marcada por una intensa vocación de servicio que imprimimos en cada uno de los
+                                proyectos que le damos curso.</p>
+                        <p>Le damos las mejores soluciones a sus proyectos ,recolzados por:</p>
+                        <p>Adoptar una permanente formación de nuestros equipos de profesionales.
+                                La constante preocupación por aplicar la nuevas y constantemente renovadas
+                                tecnologías a fin y efecto de facilitar la resolución de los problemas técnicos de sus
+                                proyectos</p>
+                    </div>
+                    <div class="d-none d-sm-block offset-sm-2 offset-md-3 offset-xl-1"></div>
+                    <div class="col-4 col-sm-8 col-md-6 col-xl-3 foto_contenidoPagina">
+                            <img src="Imagenes/architecture-blue-build.jpg" alt="quienSomos" width="250" height="250">
+                    </div>
+                </div>      
+            </div>
+        </div>
+        <!--FIN CONTENIDO PAGINA-->
+
+        <!--FOOTER-->
+        <div class="container-fluid" id="container_footer">
+            <div class="container footer">
+                <div class="row">
+                    <div class="d-none d-sm-block offset-sm-2 d-md-none d-lg-none"></div>
+                        <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-4 logo_footer">
+                            <img src="Imagenes/Logo_transparente.png" alt="osvaga-montajes" width="300px;" height="100px;">
+                        </div>
+                    <div class="d-none d-sm-block offset-sm-2 d-md-none offset-lg-1"></div>
+                    <div class="offset-sm-2 d-md-none d-lg-block offset-lg-1 offset-xl-1"></div>
+                    <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4 contacto_footer" style="text-align: center;">
+                        <h4>Informacion de contacto</h4>
+                        <p>Telefono: 607 872 167</p>
+                        <p>Mail: osvaga-montajes@hotmail.com</p>
+                        <p>Direccion: Badalona</p>
+                    </div> 
+                    <div class="offset-sm-3 d-md-none d-lg-none  d-xl-block offset-xl-1"></div>
+                    <div class="col-sm-6 d-md-none d-lg-block col-lg-2 col-xl-2 redes_footer" style="text-align: center;">
+                        <h4>Redes sociales</h4>
+                        <i class="fab fa-facebook fa-footer"></i>
+                        <i class="fab fa-twitter-square fa-footer"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FOOTER-->
+    </div><!--FIN GENERAL-->
+    <script src="../JavaScript/buscador_dinamico.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
+<!--                    </nav>
+<div class="offset-md-1"></div>
+<div id="iconos" class="col-md-4">
+    <i class="fas fa-phone"></i>
+    <p>: 605689811</p>
+    <i class="fas fa-envelope"></i>
+    <p>: osvaga-montajes@hotmail.com</p>
+</div>-->
